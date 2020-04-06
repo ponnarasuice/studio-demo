@@ -5,7 +5,7 @@ info:
   license:
     name: MIT
 servers:
-  - url: 'http://petstore.swagger.io/v1'
+  - url: 'https://petstore.swagger.io/v2'
 paths:
   /pets:
     get:
@@ -88,4 +88,5 @@ components:
       x-tags:
         - Pets
       items:
-        $ref: ./models/pet.v1.yaml      
+        $ref: ./models/pet.v1.yaml
+      x-examples: {}
